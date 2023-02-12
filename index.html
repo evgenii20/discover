@@ -1,82 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
-			.maketforfigma{
-				flex: 0 0 auto;
-				/*background: #303b44;*/
-				/*background: #5CDB95;*/
-				background: #313a46;
-				font-weight: bold;
-				display: flex;
-			}
-			.maketforfigma img{
-				border-radius: 10px;
-				margin: 4px 0 0 4px;
-			}
-			.maketforfigma p {
-				/*color: #fff;*/
-				/*color: #05386B;*/
-				color: #98a6ad;
-				text-decoration: none;
-				letter-spacing: .01875rem;
-				font-size: .775rem;
-				padding: 0 10px;
-				line-height: 0.70rem;
-			}
+	<!-- Начало: Данный блок удалять нельзя -->
+	<style>
+		.maketforfigma {
+			flex: 0 0 auto;
+			/*background: #303b44;*/
+			/*background: #5CDB95;*/
+			background: #313a46;
+			font-weight: bold;
+			display: flex;
+		}
 
-			.maketforfigma p > a {
-				/*color: #08ff00;*/
-				/*color: #EDF5E1;*/
-				color: #bbe4f0;
-				font-weight: bold;
-			}
-			.maketforfigma p > a:hover {
-				/*color: #ffa001*/
-				/*color: #379683*/
-				color: #ffffff
-			}
+		.maketforfigma img {
+			border-radius: 10px;
+			margin: 4px 0 0 4px;
+		}
 
-			.main{
-				flex: 1 0 auto;
-			}
+		.maketforfigma p {
+			/*color: #fff;*/
+			/*color: #05386B;*/
+			color: #98a6ad;
+			text-decoration: none;
+			letter-spacing: .01875rem;
+			font-size: .775rem;
+			padding: 0 10px;
+			line-height: 0.70rem;
+		}
 
-			html{
-				height: 100%;
-			}
+		.maketforfigma p>a {
+			/*color: #08ff00;*/
+			/*color: #EDF5E1;*/
+			color: #bbe4f0;
+			font-weight: bold;
+		}
 
-			body{
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				padding: 0;
-				margin: 0;
-			}
-		</style>
-		<div class="maketforfigma">
-			<a href="https://t.me/s/FigmaToHTML" target="_blank">
-				<img src="logo.png">
-			</a>
-			<div>
-				<p>
-					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
-				</p>
-				<p>
-					При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
-					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
-				</p>
-			</div>
+		.maketforfigma p>a:hover {
+			/*color: #ffa001*/
+			/*color: #379683*/
+			color: #ffffff
+		}
+
+		.main {
+			flex: 1 0 auto;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			/* height: 100%; */
+			height: 5448px;
+			padding: 0;
+			margin: 0;
+			background: #000;
+		}
+	</style>
+	<div class="maketforfigma">
+		<a href="https://t.me/s/FigmaToHTML" target="_blank">
+			<img src="logo.png">
+		</a>
+		<div>
+			<p>
+				Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+					href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+			</p>
+			<p>
+				При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай
+					за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+				<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+			</p>
 		</div>
-		<!-- Конец -->
-
+	</div>
+	<!-- Конец -->
+	<div class="qwerty">
 		<div class="main">
-			В данном блоке размещается верстка
+			<div class="main__header-container">
+				<div class="main__header">
+					<div class="gradient">
+						<div class="header_container">
+							<div>
+								<ul class="header">
+									<li><a class="heading__item-a" href="index.html">
+											<span class="heading__logo">QWERy</span></a>
+									</li>
+									<li>
+										<ul class="header_menu">
+											<li><a class="heading__item-a" href="index.html">Information</a></li>
+											<li><a class="heading__item-a menu_about" href="index.html">About us</a>
+											</li>
+											<li><a class="heading__item-a" href="index.html">Culture</a></li>
+										</ul>
+									</li>
+									<li><a class="heading__item-a" href="index.html">
+											<span class="header_menu find"><img src="images/find.png">Search</span></a>
+									</li>
+								</ul>
+							</div>
+							<div class="top__info">
+								<div class="top__block_right">
+									<div class="top__block">
+										<p class="top_line">
+											<img src="images/horizontal_line.png" alt="horizontal_line">
+											<span class="top_text">explore the Nature Beauty</span>
+										</p>
+									</div>
+									<div class="top__content">
+										<p class="top__discover">Discover</p>
+										<p class="top__wfi">Wonderful Indonesia</p>
+									</div>
+								</div>
+								<div class="top__social">
+									<p class="follow">Follow us</p>
+									<a class="heading__item-a" href="index.html"><img src="images/004-instagram.png"
+											alt="instagram"></a>
+									<a class="heading__item-a" href="index.html"><img src="images/003-twitter.png"
+											alt="twitter"></a>
+									<a class="heading__item-a" href="index.html"><img src="images/001-facebook.png"
+											alt="facebook"></a>
+
+								</div>
+								<div class="top__footer">
+									<div class="scroll_down">
+										<a href="index.html">
+											<span class="">Scroll down</span>
+											<img src="images/scroll_down.png" alt="scroll_down">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header_footer">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__footer-container">
+				<div class="main_footer_top">
+					<div class="block_flex_left"><img src="images/image_1.png" alt=""></div>
+					<div class="block_flex_right">
+						<div class="block_flex_right_container">
+							<div class="east_nusa">
+								<p class="top_line">
+									<img src="images/horizontal_line.png" alt="horizontal_line">
+									<span class="east_nusa_text">EAST nUSA TENGGARA</span>
+								</p>
+							</div>
+							<div class="have_you">
+								Have you enjoyed your holiday?
+							</div>
+							<div class="block_description">
+								<p>You will be amazed if you take part in this sailing Komodo island tour package.
+									So it
+									is
+									also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you
+									also
+									have
+									to taste the marine tourism. The beautiful waters of Komodo will make you meet
+									many
+									travelers from other countries.</p>
+							</div>
+							<div class="read_more">
+								<a href="index.html">
+									<span class="read_more_span">read more</span>
+									<img src="images/more_rigth_24px.png" alt="more_rigth">
+
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="div_empty"></div>
+				<div class="block_content1">
+					<div class="coolicon">
+						<a href="index.html"><img src="images/coolicon_left.png" alt="coolicon_left"></a>
+						<a href="index.html"><img src="images/coolicon_right.png" alt="coolicon_right"></a>
+					</div>
+					<div class="content1_block_flex">
+						<div class="content1_block_container">
+							<div class="bromo">
+								<p class="top_line">
+									<img src="images/horizontal_line.png" alt="horizontal_line">
+									<span class="bromo_text">Bromo</span>
+									<img src="images/horizontal_line.png" alt="horizontal_line">
+								</p>
+							</div>
+							<div class="steady_you">
+								<p>Steady your steps, we will climb together!</p>
+							</div>
+							<div class="content1_block_description">
+								<p>Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount
+									Semeru that soars into the sky, and gazing at the beauty of the sun moving out of
+									its bed or otherwise enjoying the dim twilight from the Bromo ridge is an
+									unforgettable experience when visiting Bromo.</p>
+							</div>
+							<div class="content1_read_more">
+								<a href="index.html">
+									<span class="content1_read_more_span">read more</span>
+									<img src="images/more_rigth_24px.png" alt="more_rigth">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="div_empty"></div>
+				<div class="block_content2">
+					<div class="block_flex_right">
+						<div class="block_flex_right_container">
+							<div class="east_nusa">
+								<p class="top_line">
+									<img src="images/horizontal_line.png" alt="horizontal_line">
+									<span class="east_nusa_text">INDONESIAN CULTURE</span>
+								</p>
+							</div>
+							<div class="have_you">
+								Our culture here is very friendly to people
+							</div>
+							<div class="block_description">
+								<p>known for his politeness, manners and gentleness. This becomes a characteristic when
+									they mingle with other tribes and become basic traits that are passed down by their
+									ancestors.</p>
+							</div>
+							<div class="read_more">
+								<a href="index.html">
+									<span class="read_more_span">read more</span>
+									<img src="images/more_rigth_24px.png" alt="more_rigth">
+
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_flex_left"><img src="images/01.png" alt=""></div>
+				</div>
+				<div class="div_empty"></div>
+				<div class="block_footer">
+					<div class="footer_top">
+						<div class="footer_qwery">
+							<p>QWERy</p>
+						</div>
+						<div class="footer_ready">
+							<div class="ready_text">
+								<p>Ready to explore?</p>
+							</div>
+							<a href="index.html">
+								<div class="ready_button">
+									<p>Get started</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="hr_line">
+					</div>
+					<div class="footer_content">
+						<div class="block_lets_go">
+							<div class="lets_go">
+								<p>Let's go on vacation, Make your day</p>
+							</div>
+							<div class="block_email">
+								<div>
+									<div class="email_address">
+										<p>Email address</p>
+									</div>
+
+									<div class="email_button">
+										<a href="index.html"><img src="images/Path.png" alt="Path"></a>
+									</div>
+
+								</div>
+								<div class="block_email_hr">
+								</div>
+							</div>
+						</div>
+						<div class="column_services">
+							<p class="column_header">Services</p>
+							<p class="column_text"><a href="index.html">Email Marketing</a></p>
+							<p class="column_text"><a href="index.html">Campaigns</a></p>
+							<p class="column_text"><a href="index.html">Branding</a></p>
+							<p class="column_text"><a href="index.html">Offline</a></p>
+						</div>
+						<div class="column_about">
+							<p class="column_header">About</p>
+							<p class="column_text"><a href="index.html">Our Story</a></p>
+							<p class="column_text"><a href="index.html">Benefits</a></p>
+							<p class="column_text"><a href="index.html">Team</a></p>
+							<p class="column_text"><a href="index.html">Careers</a></p>
+						</div>
+						<div class="column_help">
+							<p class="column_header">Help</p>
+							<p class="column_text"><a href="index.html">FAQs</a></p>
+							<p class="column_text"><a href="index.html">Contact Us</a></p>
+						</div>
+					</div>
+					<div class="footer_private_policy">
+						<div class="private_policy">
+							<div class="private_left">
+								<a href="index.html">Terms & Conditions</a>
+								<a href="index.html">Privacy Policy</a>
+							</div>
+							<div class="private_right">
+								<a href="index.html"><img src="images/001-facebook.png" alt="facebook"></a>
+								<a href="index.html"><img src="images/003-twitter.png" alt="twitter"></a>
+								<a href="index.html"><img src="images/004-instagram.png" alt="instagram"></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer_copyright">
+						Copyright 2021 QWERy
+					</div>
+				</div>
+			</div>
+
 		</div>
+	</div>
 </body>
+
 </html>
